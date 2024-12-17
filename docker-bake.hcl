@@ -19,6 +19,7 @@ target "build" {
       "medium",
       "large-v2",
       "large-v3",
+      "turbo",
     ]
     "LANG" = [
       "en",
