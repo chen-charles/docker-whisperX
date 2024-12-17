@@ -166,6 +166,7 @@ jobs:
           - medium
           - large-v2
           - large-v3
+          - turbo
     needs: docker-no_model # wait for docker-no_model to finish
 
     steps:
@@ -253,6 +254,7 @@ jobs:
           - medium
           - large-v2
           - large-v3
+          - turbo
     needs:
       - docker-no_model # wait for docker-no_model to finish
       - docker-cache # wait for docker-cache to finish
